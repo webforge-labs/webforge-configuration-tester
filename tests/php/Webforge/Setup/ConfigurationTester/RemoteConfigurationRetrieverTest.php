@@ -13,7 +13,7 @@ class RemoteConfigurationRetrieverTest extends \Webforge\Code\Test\Base {
     $this->chainClass = 'Webforge\Setup\RemoteConfigurationRetriever';
     parent::setUp();
 
-    $this->guzzleMocker = new GuzzleMocker($this->getPackageDir('tests/files/responses/'));
+    $this->guzzleMocker = new GuzzleMocker($this->getPackageDir('tests/files/Setup/responses/'));
     $this->client = $this->guzzleMocker->getClient();
 
     $this->jsonInis = json_encode(ini_get_all());
