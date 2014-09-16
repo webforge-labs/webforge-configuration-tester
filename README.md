@@ -1,4 +1,4 @@
-# webforge-configuration-tester
+# webforge-configuration-tester [![Build Status](https://travis-ci.org/webforge-labs/webforge-configuration-tester.svg)](https://travis-ci.org/webforge-labs/webforge-configuration-tester)
 
 test your php configuration from cli or unit tests
 The ConfigurationTester is able to check configuration of the environment (currently PHP-ini values) to a set of fixed values. The php.ini settings can be received through the ConfigurationRetriever (for example from a apache dump-script).
